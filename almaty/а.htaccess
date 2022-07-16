@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+<ifModule mod_expires.c>
+
+ ExpiresActive On
+
+ ExpiresByType text/css "access plus 0 days"
+ ExpiresByType text/javascript "access plus 0 days"
+ ExpiresByType application/javascript "access plus 0 days"
+ ExpiresByType application/x-javascript "access plus 0 days"
+</ifModule>
+
+ErrorDocument 404 /err404.html
+
+
+RewriteEngine On
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]

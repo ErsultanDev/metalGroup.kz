@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://metalgroup.kz/
+Sitemap: https://metalgroup.kz/sitemap.xml
