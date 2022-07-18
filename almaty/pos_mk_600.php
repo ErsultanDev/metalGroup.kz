@@ -48,12 +48,12 @@ if (isset($_SESSION["send"]) and $_SESSION["send"]!="") {    //вывод соо
 ?>
 
 <head>
-    <title>Микрокиоск Zebra MK500 купить В Алматы, Алматы | Сенсорные прайс чекеры цена</title>
+    <title>Микрокиоск Zebra MK500 купить В Алматы | Сенсорные прайс чекеры цена</title>
     <!--/tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="микрокиоск, zebra, mk500, прайс чекер, для проверки цен, алматы, купить, цена, продажа." />
-    <meta name="description" content="Купить Микрокиоск Zebra MK500 В Алматы, Алматы для проверки цен по доступным ценам. Широкий выбор сенсорных прайс чекеров Zebra от компании Softgroup">
+    <meta name="description" content="Купить Микрокиоск Zebra MK500 В Алматы для проверки цен по доступным ценам. Широкий выбор сенсорных прайс чекеров Zebra от компании Softgroup">
     <!--//tags -->
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
