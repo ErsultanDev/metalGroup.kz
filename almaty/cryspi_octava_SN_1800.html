@@ -749,69 +749,70 @@ var slideshow4=new TINY.slider.slide('slideshow4',{
 
 </script>
 <script type="text/javascript">
+    function init() {
+        $('[data-behaviour="toggle-menu-burger"]').on('click', toggleMenuBurger);
+        $('[data-behaviour="toggle-menu-icon"]').on('click', toggleMenuIcon);
+        $('[data-behaviour="toggle-menu-close"]').on('click', toggleMenuClose);
+        $('[data-behaviour="toggle-menu-bg"]').on('click', toggleMenuBg);
+    };
+    function toggleMenuBurger() {
+        $('[data-element="toggle-nav-burger"]').toggleClass('nav--activeAdap');
+        $('[data-element="toggle-nav-bg"]').addClass('menu-icon--open');
+        $('body').toggleClass('no-scroll');
+    };
+    function toggleMenuIcon() {
+        $('[data-element="toggle-nav"]').toggleClass('nav--active');
+        $('[data-element="toggle-nav-bg"]').addClass('menu-icon--open');
+        $('body').toggleClass('no-scroll');
+    };
 
-  function init() {
-    $('[data-behaviour="toggle-menu-icon"]').on('click', toggleMenuIcon);
-    $('[data-behaviour="toggle-menu-close"]').on('click', toggleMenuClose);
-    $('[data-behaviour="toggle-menu-bg"]').on('click', toggleMenuBg);
-  };
+    function toggleMenuClose() {
+        $(this).removeClass('menu-icon--open');
+        $('[data-element="toggle-nav-burger"]').removeClass('nav--activeAdap');
+        $('[data-element="toggle-nav"]').removeClass('nav--active');
+        $('[data-element="toggle-nav-bg"]').removeClass('menu-icon--open');
+        $('body').toggleClass('no-scroll');
+    };
 
-  function toggleMenuIcon() {
-    $('[data-element="toggle-nav"]').toggleClass('nav--active');
-    $('[data-element="toggle-nav-bg"]').addClass('menu-icon--open');
-    $('body').toggleClass('no-scroll');
-  };
+    function toggleMenuBg() {
+        $(this).removeClass('menu-icon--open');
+        $('[data-element="toggle-nav"]').removeClass('nav--active');
+        $('[data-element="toggle-nav-burger"]').removeClass('nav--activeAdap');
+        $('body').toggleClass('no-scroll');
+    };
 
-  function toggleMenuClose() {
-    $(this).removeClass('menu-icon--open');
-    $('[data-element="toggle-nav"]').toggleClass('nav--active');
-    $('[data-element="toggle-nav-bg"]').removeClass('menu-icon--open');
-    $('body').toggleClass('no-scroll');
-  };
+    init();
 
-  function toggleMenuBg() {
-    $(this).removeClass('menu-icon--open');
-    $('[data-element="toggle-nav"]').removeClass('nav--active');
-    $('body').toggleClass('no-scroll');
-  };
+    $(add).on('click', function () {
+        $(tab).prop('checked', true);
+    })
 
+    $(".mymagicoverbox").click(function () {
+        $('#myfond_gris').fadeIn(300);
+        var iddiv = $(this).attr("iddiv");
+        $('#' + iddiv).fadeIn(300);
+        $('#myfond_gris').attr('opendiv', iddiv);
+        return false;
+    });
 
-  init();
+    $('#myfond_gris, .mymagicoverbox_fermer').click(function () {
 
-  $(add).on('click', function () {
-    $(tab).prop('checked', true);
-  })
+        var iddiv = $("#myfond_gris").attr('opendiv');
+        $('#myfond_gris').fadeOut(300);
+        $('#' + iddiv).fadeOut(300);
 
-
-  $(".mymagicoverbox").click(function () {
-    $('#myfond_gris').fadeIn(300);
-
-    var iddiv = $(this).attr("iddiv");
-    $('#' + iddiv).fadeIn(300);
-    $('#myfond_gris').attr('opendiv', iddiv);
-    return false;
-
-  });
-
-  $('#myfond_gris, .mymagicoverbox_fermer').click(function () {
-
-    var iddiv = $("#myfond_gris").attr('opendiv');
-    $('#myfond_gris').fadeOut(300);
-    $('#' + iddiv).fadeOut(300);
-
-  });
+    });
 
 
-  $(".mymagicoverbox").click(function () {
-    $("body").attr("style", "overflow:hidden;");
-  });
-  $("#myfond_gris").click(function () {
-    $("body").attr("style", "overflow:visible;");
-  });
+    $(".mymagicoverbox").click(function () {
+        $("body").attr("style", "overflow:hidden;");
+    });
+    $("#myfond_gris").click(function () {
+        $("body").attr("style", "overflow:visible;");
+    });
 
-  $("#performanceRadioBtns").find("#IndividualPD").prop("checked", true);
-
-</script>
+    $("#performanceRadioBtns").find("#IndividualPD").prop("checked", true);
+</script><!-- GoogleAnalytics -->
 <!-- WhatsHelp.io widget -->
 
 <!-- GoogleAnalytics -->

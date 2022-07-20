@@ -3816,7 +3816,18 @@ let cityMainGorod1 = "Город";
 // } else {
 //   cityMainGorod1 = "Город";
 // }
+let currentNurs = currentLocation.slice(0, 10);
+let currentAlmaty = currentLocation.slice(0, 7);
+let currentShymkent = currentLocation.slice(0, 9);
 
+
+if (currentNurs == "/nursultan") {
+  cityMainGorod1 = "Нур-Султан";
+} else if (currentAlmaty == "/almaty") {
+  cityMainGorod1 = "Алматы";
+} else if (currentShymkent == "/shymkent") {
+  cityMainGorod1 = "Шымкент";
+}
 let cityMain = `<div class="cityMain">
    <div id="trigger" class="trigger-button">
        <i class="fa-solid fa-location-dot"></i>
@@ -5307,7 +5318,7 @@ let location_almaty = document.querySelector(".location-almaty"),
   cityHrefNursultan = "nursultan",
   cityHrefAlmaty = "almaty",
   cityHrefShymkent = "shymkent";
-                                                                 
+
 let nursultanHref = [`${cityHref1}/${cityHrefNursultan}/${cityHref3}`],
   almatyHref = [`${cityHref1}/${cityHrefAlmaty}/${cityHref3}`],
   shymkentHref = [`${cityHref1}/${cityHrefShymkent}/${cityHref3}`];
@@ -5315,14 +5326,6 @@ let nursultanHref = [`${cityHref1}/${cityHrefNursultan}/${cityHref3}`],
 location_almaty.setAttribute("href", almatyHref);
 location_nursultan.setAttribute("href", nursultanHref);
 location_shymkent.setAttribute("href", shymkentHref);
-
-
-
-
-
-
-
-
 
 let nursultanHrefCity = [
   `${cityHref1}/${cityHref2}/${cityHrefNursultan}/${cityHref3}`,

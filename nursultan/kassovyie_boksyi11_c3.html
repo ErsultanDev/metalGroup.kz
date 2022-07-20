@@ -7,7 +7,7 @@
   <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-WVWNZ4V');</script>
   <!-- End Google Tag Manager -->
   <meta charset="utf-8" />
-  <title>Кассовые боксы с накопителем желтый для магазинов и супермаркетов в Нур-Султан, Астана купить по низкой цене</title>
+  <title>Кассовые боксы с накопителем желтый для магазинов и супермаркетов в Нур-Султан, Астана  купить по низкой цене</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" src="/images/Icon.ico" type="image/x-icon">
   <meta name="keywords" content="кассовый бокс, прилавки, кассы для супермаркетов, кассы для магазина, кассы">
@@ -1037,69 +1037,70 @@
 
 </script>
 <script type="text/javascript">
+    function init() {
+        $('[data-behaviour="toggle-menu-burger"]').on('click', toggleMenuBurger);
+        $('[data-behaviour="toggle-menu-icon"]').on('click', toggleMenuIcon);
+        $('[data-behaviour="toggle-menu-close"]').on('click', toggleMenuClose);
+        $('[data-behaviour="toggle-menu-bg"]').on('click', toggleMenuBg);
+    };
+    function toggleMenuBurger() {
+        $('[data-element="toggle-nav-burger"]').toggleClass('nav--activeAdap');
+        $('[data-element="toggle-nav-bg"]').addClass('menu-icon--open');
+        $('body').toggleClass('no-scroll');
+    };
+    function toggleMenuIcon() {
+        $('[data-element="toggle-nav"]').toggleClass('nav--active');
+        $('[data-element="toggle-nav-bg"]').addClass('menu-icon--open');
+        $('body').toggleClass('no-scroll');
+    };
 
-  function init() {
-    $('[data-behaviour="toggle-menu-icon"]').on('click', toggleMenuIcon);
-    $('[data-behaviour="toggle-menu-close"]').on('click', toggleMenuClose);
-    $('[data-behaviour="toggle-menu-bg"]').on('click', toggleMenuBg);
-  };
+    function toggleMenuClose() {
+        $(this).removeClass('menu-icon--open');
+        $('[data-element="toggle-nav-burger"]').removeClass('nav--activeAdap');
+        $('[data-element="toggle-nav"]').removeClass('nav--active');
+        $('[data-element="toggle-nav-bg"]').removeClass('menu-icon--open');
+        $('body').toggleClass('no-scroll');
+    };
 
-  function toggleMenuIcon() {
-    $('[data-element="toggle-nav"]').toggleClass('nav--active');
-    $('[data-element="toggle-nav-bg"]').addClass('menu-icon--open');
-    $('body').toggleClass('no-scroll');
-  };
+    function toggleMenuBg() {
+        $(this).removeClass('menu-icon--open');
+        $('[data-element="toggle-nav"]').removeClass('nav--active');
+        $('[data-element="toggle-nav-burger"]').removeClass('nav--activeAdap');
+        $('body').toggleClass('no-scroll');
+    };
 
-  function toggleMenuClose() {
-    $(this).removeClass('menu-icon--open');
-    $('[data-element="toggle-nav"]').toggleClass('nav--active');
-    $('[data-element="toggle-nav-bg"]').removeClass('menu-icon--open');
-    $('body').toggleClass('no-scroll');
-  };
+    init();
 
-  function toggleMenuBg() {
-    $(this).removeClass('menu-icon--open');
-    $('[data-element="toggle-nav"]').removeClass('nav--active');
-    $('body').toggleClass('no-scroll');
-  };
+    $(add).on('click', function () {
+        $(tab).prop('checked', true);
+    })
 
+    $(".mymagicoverbox").click(function () {
+        $('#myfond_gris').fadeIn(300);
+        var iddiv = $(this).attr("iddiv");
+        $('#' + iddiv).fadeIn(300);
+        $('#myfond_gris').attr('opendiv', iddiv);
+        return false;
+    });
 
-  init();
+    $('#myfond_gris, .mymagicoverbox_fermer').click(function () {
 
-  $(add).on('click', function () {
-    $(tab).prop('checked', true);
-  })
+        var iddiv = $("#myfond_gris").attr('opendiv');
+        $('#myfond_gris').fadeOut(300);
+        $('#' + iddiv).fadeOut(300);
 
-
-  $(".mymagicoverbox").click(function () {
-    $('#myfond_gris').fadeIn(300);
-
-    var iddiv = $(this).attr("iddiv");
-    $('#' + iddiv).fadeIn(300);
-    $('#myfond_gris').attr('opendiv', iddiv);
-    return false;
-
-  });
-
-  $('#myfond_gris, .mymagicoverbox_fermer').click(function () {
-
-    var iddiv = $("#myfond_gris").attr('opendiv');
-    $('#myfond_gris').fadeOut(300);
-    $('#' + iddiv).fadeOut(300);
-
-  });
+    });
 
 
-  $(".mymagicoverbox").click(function () {
-    $("body").attr("style", "overflow:hidden;");
-  });
-  $("#myfond_gris").click(function () {
-    $("body").attr("style", "overflow:visible;");
-  });
+    $(".mymagicoverbox").click(function () {
+        $("body").attr("style", "overflow:hidden;");
+    });
+    $("#myfond_gris").click(function () {
+        $("body").attr("style", "overflow:visible;");
+    });
 
-  $("#performanceRadioBtns").find("#IndividualPD").prop("checked", true);
-
-</script>
+    $("#performanceRadioBtns").find("#IndividualPD").prop("checked", true);
+</script><!-- GoogleAnalytics -->
 <!-- WhatsHelp.io widget -->
 
 <!-- GoogleAnalytics -->
