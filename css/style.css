@@ -2913,6 +2913,7 @@ form {
   position: relative;
   text-align: center;
   text-decoration: none;
+  /* width: 60px; */
 }
 
 #header ul li span:hover {
@@ -15728,7 +15729,10 @@ table {
     .recomendation_item {
       margin: 10px 0px;
     }
-    .menuAdaptiveImgActive2-3 {
+    /* #header .otzyvy_menu{
+      padding-left: 14px!important;
+    } */
+    /* .menuAdaptiveImgActive2-3 {
       display: none;
     }
     .menu_lists li:first-child:hover .menuAdaptiveImgNoActive1 {
@@ -15776,7 +15780,7 @@ table {
     .menu_lists li:nth-child(9):hover .menuAdaptiveImgActive5-3 {
       color: #848688;
       display: block;
-    }
+    } */
     .menu_lists li:nth-child(9):hover span {
       color: #848688;
     }
@@ -16884,7 +16888,7 @@ table {
       display: none;
     }
     @media screen and (max-width: 814px) {
-      .categories-menu-item{
+      .categories-menu-item {
         padding: 15px 22px 5px 44px !important;
       }
       .complect_title {

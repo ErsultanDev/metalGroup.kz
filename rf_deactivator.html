@@ -533,8 +533,7 @@
 
 </script>
 <script type="text/javascript">
-
-        function init() {
+    function init() {
         $('[data-behaviour="toggle-menu-burger"]').on('click', toggleMenuBurger);
         $('[data-behaviour="toggle-menu-icon"]').on('click', toggleMenuIcon);
         $('[data-behaviour="toggle-menu-close"]').on('click', toggleMenuClose);
@@ -566,22 +565,18 @@
         $('body').toggleClass('no-scroll');
     };
 
-
     init();
 
     $(add).on('click', function () {
         $(tab).prop('checked', true);
     })
 
-
     $(".mymagicoverbox").click(function () {
         $('#myfond_gris').fadeIn(300);
-
         var iddiv = $(this).attr("iddiv");
         $('#' + iddiv).fadeIn(300);
         $('#myfond_gris').attr('opendiv', iddiv);
         return false;
-
     });
 
     $('#myfond_gris, .mymagicoverbox_fermer').click(function () {
@@ -601,8 +596,7 @@
     });
 
     $("#performanceRadioBtns").find("#IndividualPD").prop("checked", true);
-
-</script>
+</script><!-- GoogleAnalytics -->
 <!-- WhatsHelp.io widget -->
 
 <!-- GoogleAnalytics -->
