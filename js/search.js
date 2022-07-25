@@ -1,8 +1,5 @@
 const searchedItems = document.getElementById("searched-items")
 
-
-
-
 function displayList(array) {
     array.map((a) => {
         var formatter = function(priceSum) {

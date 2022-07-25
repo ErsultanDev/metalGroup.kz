@@ -3336,7 +3336,7 @@ const data444 = [
     code: "5051",
   },
   {
-    link: "vitriny dlya magazinov.html",
+    link: "vitrinydlyamagazinov.html",
     title: "Витрины для магазинов",
     desc: "Мы предлагаем Вашему вниманию витрины для магазинов, а также готовы выполнит изготовление по Вашему заказу или по собственным эскизам. У нас самый широкий ассортимент стекла различных видов.",
     img: "/images/fulls/steklo/new/main/9.jpg",
@@ -3344,7 +3344,7 @@ const data444 = [
     code: "5052",
   },
   {
-    link: "vitriny iz stekla.html",
+    link: "vitrinyizstekla.html",
     title: "Витрины из стекла",
     desc: "Витрины из стекла обладают высокой прочностью и надежностью , так как они изготовлены из специального закаленного стекла или стекла триплекс. Витрины обеспечивают особый уют и комфорт как для покупателей, так и для продавцов.",
     img: "/images/fulls/steklo/new/main/6.jpg",
@@ -4892,7 +4892,7 @@ const data444 = [
   },
   // _____________________________________Металлические верстаки____________________________________________
   {
-    link: "verstak e.html",
+    link: "verstake.html",
     title: "Металлический верстак с подвесной тумбой ВП-Э",
     desc: "Верстак металлический с подвесной тумбой имеют современный стильный внешний вид, надежность и высокое качество, а также очень удобны в эксплуатации и обслуживании.",
     img: "/images/fulls/met_verstak/1.jpg",
@@ -4901,7 +4901,7 @@ const data444 = [
   },
 
   {
-    link: "verstak 1.html",
+    link: "verstak1.html",
     title: "Металлический верстак с подвесной тумбой ВП-1",
     desc: "Верстак металлический имеют современный стильный внешний вид, надежность и высокое качество, а также очень удобны в эксплуатации и обслуживании.",
     img: "/images/fulls/met_verstak/2.jpg",
@@ -4910,7 +4910,7 @@ const data444 = [
   },
 
   {
-    link: "verstak 2.html",
+    link: "verstak2.html",
     title: "Металлический верстак с подвесной тумбой ВП-2",
     desc: "Верстак металлический однотумбовый имеют современный стильный внешний вид, надежность и высокое качество, а также очень удобны в эксплуатации и обслуживании.",
     img: "/images/fulls/met_verstak/3.JPG",
@@ -4919,7 +4919,7 @@ const data444 = [
   },
 
   {
-    link: "verstak 3.html",
+    link: "verstak3.html",
     title: "Металлический верстак с подвесной тумбой ВП-3",
     desc: "Верстак металлический однотумбовый с драйвером (на пять выдвижных ящиков) имеют современный стильный внешний вид, надежность и высокое качество, а также очень удобны в эксплуатации и обслуживании.",
     img: "/images/fulls/met_verstak/4.jpg",
@@ -4928,7 +4928,7 @@ const data444 = [
   },
 
   {
-    link: "verstak 4.html",
+    link: "verstak4.html",
     title: "Металлический верстак с подвесной тумбой ВП-4",
     desc: "Верстак металлический двухтумбовый с тумбой и драйвером (на пять выдвижных ящиков) имеют современный стильный внешний вид, надежность и высокое качество, а также очень удобны в эксплуатации и обслуживании.",
     img: "/images/fulls/met_verstak/5.jpg",
@@ -4937,7 +4937,7 @@ const data444 = [
   },
 
   {
-    link: "verstak 5.html",
+    link: "verstak5.html",
     title: "Металлический верстак с подвесной тумбой ВП-5",
     desc: "Верстак металлический двухтумбовый (с двумя отделениями) имеют современный стильный внешний вид, надежность и высокое качество, а также очень удобны в эксплуатации и обслуживании.",
     img: "/images/fulls/met_verstak/6.jpg",
@@ -4946,7 +4946,7 @@ const data444 = [
   },
 
   {
-    link: "verstak 6.html",
+    link: "verstak6.html",
     title: "Металлический верстак с подвесной тумбой ВП-6",
     desc: "Верстак металлический двухтумбовый с двумя драйверами (на пять выдвижных ящиков) имеют современный стильный внешний вид, надежность и высокое качество, а также очень удобны в эксплуатации и обслуживании.",
     img: "/images/fulls/met_verstak/7.jpg",
@@ -6575,7 +6575,7 @@ document.querySelector(".search-btn").addEventListener("click", function (e) {
       .split("#")[0]
       .split("?")[0];
     if (sorted.length > 0) {
-      window.location.href = "search.html";
+      window.location.href = "search";
     } else {
       if (reversed == false) {
         patterns.reverse();
@@ -6690,7 +6690,7 @@ document.querySelector("#txtSearch").addEventListener("keypress", function (e) {
         .split("#")[0]
         .split("?")[0];
       if (sorted.length > 0) {
-        window.location.href = "search.html";
+        window.location.href = "search";
       } else {
         if (reversed == false) {
           patterns.reverse();
@@ -6803,7 +6803,7 @@ document.querySelector(".search-btn2").addEventListener("click", function (e) {
       .split("#")[0]
       .split("?")[0];
     if (sorted.length > 0) {
-      window.location.href = "search.html";
+      window.location.href = "search";
     } else {
       if (reversed == false) {
         patterns.reverse();
@@ -6918,7 +6918,7 @@ document
           .split("#")[0]
           .split("?")[0];
         if (sorted.length > 0) {
-          window.location.href = "search.html";
+          window.location.href = "search";
         } else {
           if (reversed == false) {
             patterns.reverse();
