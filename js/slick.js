@@ -3865,6 +3865,7 @@ let cityMain = `<div class="cityMain">
 
 const headePage = document.getElementById("header");
 
+headePage.innerHTML = ``;
 headePage.innerHTML = `
 <div id="header">
 <div class="container">

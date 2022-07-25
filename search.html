@@ -29,7 +29,7 @@
     <div id="body">
 
         <section class="lazy slider" data-sizes="50vw">
-       
+
             <div>
                 <img src="/images/slide/boks.webp">
             </div>
@@ -47,7 +47,20 @@
             <p class="drevoo"><a class="drevo" href="products.html">Каталог</a> / Результаты поиска
             </p>
         </div> <br>
-
+        <div class="searchLogParent searchLogParentFeatured">
+            <div class="search_log">
+                <div class="sample eight search-box">
+                    <input type="text" name="" autocomplete="off" id="txtSearch" placeholder="Введите запрос..."
+                        class="sampleSearch search-txt">
+                    <input type="text" name="" autocomplete="off" id="txtSearch2" placeholder="Введите запрос..."
+                        class="sampleSearch sampleSearch2 search-txt">
+                    <button type="submit" class="btn btn-search search-btn search-btn2">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <button type="reset" class="btn btn-reset fa fa-times"></button>
+                </div>
+            </div>
+        </div>
         <div class="footer search_wrapper">
             <div class="section">
                 <div>
@@ -236,10 +249,10 @@
 <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
     $(document).on('ready', function () {
-         $(".center").slick({
+        $(".center").slick({
             dots: true,
             infinite: true,
-            slidesToShow:4,
+            slidesToShow: 4,
             autoplaySpeed: 4500,
             slidesToScroll: 4,
             responsive: [{
@@ -272,7 +285,7 @@
 <!-- Category_products -->
 <script type="text/javascript">
 
-        function init() {
+    function init() {
         $('[data-behaviour="toggle-menu-burger"]').on('click', toggleMenuBurger);
         $('[data-behaviour="toggle-menu-icon"]').on('click', toggleMenuIcon);
         $('[data-behaviour="toggle-menu-close"]').on('click', toggleMenuClose);

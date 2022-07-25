@@ -4602,7 +4602,7 @@ const data444 = [
   // _____________________________________Металлические картотечные шкафы (картотека, файл-кабинет)____________________________________________
 
   {
-    link: "kr 2.html",
+    link: "kr2.html",
     title: "Металлический картотечный шкаф (картотека) КР-2",
     desc: "Металлическая сборно-разборная картотека КР-2, двухсекционная, с центральным замком. Используется для хранения документации в форматах Foolscap и А4. Имеет антиопрокидывающее устройство и телескопические направляющие. Покрытие -  полимерное порошковое серого цвета (RAL 7035).",
     img: "/images/fulls/shkaf_kart/kr2.png",
@@ -4611,7 +4611,7 @@ const data444 = [
   },
 
   {
-    link: "kr 3.html",
+    link: "kr3.html",
     title: "Металлический картотечный шкаф (картотека) КР-3",
     desc: "Металлическая сборно-разборная картотека КР-3, трехсекционная, с центральным замком. Используется для хранения документации в форматах Foolscap и А4. Имеет антиопрокидывающее устройство и телескопические направляющие. Покрытие -  полимерное порошковое серого цвета (RAL 7035).",
     img: "/images/fulls/shkaf_kart/kr3.png",
@@ -4620,7 +4620,7 @@ const data444 = [
   },
 
   {
-    link: "kr 4.html",
+    link: "kr4.html",
     title: "Металлический картотечный шкаф (картотека) КР-4",
     desc: "Металлическая сборно-разборная картотека КР-4, четырехсекционная, с центральным замком. Используется для хранения документации в форматах Foolscap и А4. Имеет антиопрокидывающее устройство и телескопические направляющие. Покрытие -  полимерное порошковое серого цвета (RAL 7035).",
     img: "/images/fulls/shkaf_kart/kr4.png",
@@ -4629,7 +4629,7 @@ const data444 = [
   },
 
   {
-    link: "kr 5.html",
+    link: "kr5.html",
     title: "Металлический картотечный шкаф (картотека) КР-5",
     desc: "Металлическая сборно-разборная картотека КР-5, пятисекционная, с центральным замком. Используется для хранения документации в форматах Foolscap и А4. Имеет антиопрокидывающее устройство и телескопические направляющие. Покрытие -  полимерное порошковое серого цвета (RAL 7035).",
     img: "/images/fulls/shkaf_kart/kr5.png",
@@ -4638,7 +4638,7 @@ const data444 = [
   },
 
   {
-    link: "kr 7.html",
+    link: "kr7.html",
     title: "Металлический картотечный шкаф (картотека) КР-7",
     desc: "Металлический картотечный шкаф (картотека) КР-7. Предназначен для хранения документов в формате А5. Имеет семь выдвижных ящиков, разделенных перегородкой. Благодаря телескопическим направляющим каждый ящик может быть выдвинут полностью на всю глубину. Металлическая картотека имеет центральный врезной замок. Покрытие - полимерное порошковое светло-серого цвета (RAL 7035).",
     img: "/images/fulls/shkaf_kart/kr7.png",
@@ -4899,7 +4899,6 @@ const data444 = [
     price: 41084,
     code: "1201",
   },
-
   {
     link: "verstak1.html",
     title: "Металлический верстак с подвесной тумбой ВП-1",
@@ -6575,7 +6574,7 @@ document.querySelector(".search-btn").addEventListener("click", function (e) {
       .split("#")[0]
       .split("?")[0];
     if (sorted.length > 0) {
-      window.location.href = "search";
+      window.location.href = "search.html";
     } else {
       if (reversed == false) {
         patterns.reverse();
@@ -6690,7 +6689,7 @@ document.querySelector("#txtSearch").addEventListener("keypress", function (e) {
         .split("#")[0]
         .split("?")[0];
       if (sorted.length > 0) {
-        window.location.href = "search";
+        window.location.href = "search.html";
       } else {
         if (reversed == false) {
           patterns.reverse();
@@ -6803,7 +6802,7 @@ document.querySelector(".search-btn2").addEventListener("click", function (e) {
       .split("#")[0]
       .split("?")[0];
     if (sorted.length > 0) {
-      window.location.href = "search";
+      window.location.href = "search.html";
     } else {
       if (reversed == false) {
         patterns.reverse();
@@ -6918,7 +6917,7 @@ document
           .split("#")[0]
           .split("?")[0];
         if (sorted.length > 0) {
-          window.location.href = "search";
+          window.location.href = "search.html";
         } else {
           if (reversed == false) {
             patterns.reverse();
